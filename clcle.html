@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="ho"></h1>
+  <div id="face">
+           
+    <div id='o1'></div>
+
+
+    <div id='m1'> </div>
+    
+    <div id='m2'></div>
+
+     <div id='o2'></div>
+
+      <div id='m3'> </div>
+
+      <div id='m4'></div>
+
+
+      <div id="u"></div>
+
+    <div id="face2">
+  
+  
+    </div>
+    
+</div>
+
+<button onclick="si()">mom</button>
+<div id="nop"></div>
+<script>
+var x = 0;
+  var my = setInterval(function() {
+	
+    x += 1;
+document.getElementById('ho').innerHTML=x ;
+
+if( x == '6'){
+  
+
+  document.getElementById('m1').innerHTML = "<div id='sh1'> </div>"
+  document.getElementById('m2').innerHTML = "<div id='sh2'></div>"
+  document.getElementById('m3').innerHTML = "<div id='sh3'> </div>"
+  document.getElementById('m4').innerHTML = "<div id='sh4'></div>"
+  x -=6;
+ 
+}
+
+
+  }, 1000)
+</script>
+<style>
+  #nop{
+    transition-duration:2s ;
+  }
+  @keyframes lop{
+    
+  }
+#face{
+    border: 1px solid;
+    width: 172px;
+    height:126px;
+    position: absolute;
+    border: none;
+    top: 18px;
+    left: 180px;
+   
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.907);
+    
+}
+#face2{
+    border: 1px solid;
+    width: 174px;
+    height: 128px;
+    position: absolute;
+  top: -2px;
+  left: -2px;
+    border-radius: 8px;
+    background-color:rgba(0, 255, 255, 0.485);
+
+}
+#o1{
+    border: 1px solid ;
+    width: 21px;
+    height: 21px;
+    background-color: aqua;
+   
+    position: absolute;
+    top: 22px;
+  border-radius: 3px;
+    left: 40px;
+    border: none;
+
+
+}
+#sh2{
+border: 1px solid rgb(0, 0, 0);
+
+width: 20px;
+height: 11px;
+position: absolute;
+top:45px;
+left: 40px;
+border-radius: 0px 0px 3px 3px;
+animation:  go 200ms linear;
+background-color: rgba(0, 0, 0, 0.599)
+}
+@keyframes go{
+    100%{
+  top: 18px;
+      
+}
+}
+#sh1{
+    border: 1px solid rgb(0, 0, 0);
+ 
+    width: 20px;
+    height: 11px;
+    position: absolute;
+    left: 40px;
+   top:8px;
+    border-radius: 3px 3px 0px 0px;
+    animation:  po 200ms linear;
+    background-color: rgba(0, 0, 0, 0.599)
+    }
+    @keyframes po{
+        100%{
+           
+         top: 0px;
+          
+    }
+    }
+
+
+    #sh4{
+        border: 1px solid rgb(0, 0, 0);
+   
+        width: 20px;
+        height: 11px;
+        position: absolute;
+        top:45px;
+        left: 120px;
+        border-radius: 0px 0px 3px 3px;
+        animation:  go 200ms linear;
+        background-color: rgba(0, 0, 0, 0.599)
+
+        }
+        @keyframes go{
+            100%{
+          top: 30px;
+              
+        }
+        }
+        #sh3{
+            border: 1px solid rgb(0, 0, 0);
+         
+            width: 20px;
+            height: 11px;
+            position: absolute;
+            left: 120px;
+           top: 7px;
+            border-radius: 3px 3px 0px 0px;
+            animation:  po 200ms linear;
+            background-color: rgba(0, 0, 0, 0.599)
+            }
+            @keyframes po{
+                100%{
+                 top: 18px;
+                  
+            }
+            }
+
+
+#o2{
+    border: 1px solid ;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    position: absolute;
+    top: 22px;
+    left: 120px;
+    border-radius: 3px;
+  
+   
+}
+#u{
+    border: 1px solid ;
+    border: none;
+    width: 80px;
+    height: 10px;
+    background-color: aqua;
+    top: 80px;
+    left: 48px;
+    position: absolute;
+ 
+  
+    box-shadow: 0px 0px 80px 0px;
+    color: aqua; 
+}
+#hea{
+    border: 1px solid ;
+    width: 210px;
+    height: 160px;
+    border-radius: 10px;
+    position: absolute;
+    top:27px;
+    left: 50px;
+    background-color: rgba(74, 74, 74, 0.438);
+
+}
+</style>
+</body>
+</html>

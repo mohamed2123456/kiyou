@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><link rel="stylesheet" href="index.css">
+
+<body>
+    <div class="bod">
+<button id="de"></button>
+        <h1 id="dp"></h1>
+    <div id="hea">
+        <div id="face">
+          
+            <div id='o1'></div>
+             <div id='m1'> </div>
+             <div id='m2'></div>
+             <div id='o2'></div> 
+             <div id='m3'> </div>
+             <div id='m4'></div>
+            <div id="ki1"></div>
+                  
+
+            <div id="face2">
+            <textarea id="result"></textarea>
+            <div id="wa1"></div>
+            <div id="wa2"></div>
+            <div id="wa3"></div>
+            <div id="wa4"></div>
+            <div id="wa5"></div>
+            <div id="wa6"></div> 
+           
+            </div>
+        </div>
+    </div>
+    <div id="D"></div>
+         <!-- <button id="oke" onclick="se()">=</button>-->
+                            <h2 id="ho">0</h2> 
+                            <h3 id="ho2">0</h3> 
+  
+            </div>
+ 
+   
+</body>
+
+    	
+<script src="index.js"></script>
+<script> 
+    /*function dis(val){
+        document.getElementById('result').value+=val
+    }
+    */		 
+    
+             function se(){ 
+    
+                let x = document.getElementById("result").value 
+
+let y = eval(x) 
+
+let si = document.getElementById("dp").innerHTML =x + " = " + y ; 
+
+
+
+           if(x == '3 + 3'){
+                let d1 = new Audio('v6.mp3');
+	            d1.play();
+            } else  if(x == '10 + 10'){
+                let d1 = new Audio('v20.mp3');
+	            d1.play();
+            }if(x == '20 + 20'){
+                let d1 = new Audio('v40.mp3');
+	            d1.play();
+            }if(x == '40 + 40'){
+                let d1 = new Audio('v80.mp3');
+	            d1.play();
+            }if(x == '80 + 80'){
+                let d1 = new Audio('v160.mp3');
+	            d1.play();
+            }if(x == '160 + 160'){
+                let d1 = new Audio('v20.mp3');
+	            d1.play();
+            }
+    
+                 
+    
+                
+
+                
+  /*              
+let utter = new SpeechSynthesisUtterance();
+utter.lang = 'en-US';
+utter.text = si;
+utter.volume = 3000;
+utter.pitch = 10;
+utter.rate = 1;
+utter.voiceURI = 'native';
+// speak
+window.speechSynthesis.speak(utter);
+*/
+document.getElementById('result').value= "";
+} 
+
+
+</script> 
+<script>
+ /*
+    function timedRefresh(timeoutPeriod) {
+        setTimeout("location.reload(true);",timeoutPeriod);
+    }
+    
+    window.onload = timedRefresh(50000);
+    */
+ 
+    </script>
+<script>
+    document.getElementById('de').innerHTML = 
+    navigator.onLine;
+</script>
+
+</body>
+</html>

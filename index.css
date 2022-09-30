@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.bod{
+    border:2px solid black ;
+    width: 20pc;
+    height: 36pc;
+    background-color: rgb(225, 225, 225);
+    position: absolute;
+ 
+    
+}
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+#oke {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    font-size: 40px;
+ 
+}
+#war1{
+    border: 1px solid black;
+    width: 12px;
+    height: 12px ;
+    background-color: rgba(0, 255, 255, 0.776);
+border-radius: 0px 8px 8px 8px ;
+transform: rotateZ(41deg);
+position: absolute;
+top: -12px;
+left: 4px;
+border: none;
+animation: ward1 1000ms linear 2;
+}
+@keyframes ward1{
+    100%{
+        top: 102px;
+    }
+}
+#war2{
+    border: 1px solid black;
+    width: 12px;
+    height: 12px ;
+    background-color: rgba(0, 255, 255, 0.776);
+border-radius: 0px 8px 8px 8px ;
+transform: rotateZ(41deg);
+position: absolute;
+top: -12px;
+left: 30px;
+border: none;
+animation: ward2 2000ms  linear 2;
+}
+@keyframes ward2{
+    100%{
+        top: 102px;
+    }
+}
+#war3{
+    border: 1px solid black;
+    width: 12px;
+    height: 12px ;
+    background-color: rgba(0, 255, 255, 0.776);
+border-radius: 0px 8px 8px 8px ;
+transform: rotateZ(41deg);
+position: absolute;
+top: -12px;
+left: 60px;
+border: none;
+animation: ward3 3000ms linear 2;
+}
+@keyframes ward3{
+    100%{
+        top: 102px;
+    }
+}
+#war4{
+    border: 1px solid black;
+    width: 12px;
+    height: 12px ;
+    background-color: rgba(0, 255, 255, 0.776);
+border-radius: 0px 8px 8px 8px ;
+transform: rotateZ(41deg);
+position: absolute;
+top: -12px;
+left: 90px;
+border: none;
+animation: ward4 5s linear 2;
+}
+@keyframes ward4{
+    100%{
+        top: 102px;
+    }
+}
+#war5{
+    border: 1px solid black;
+    width: 12px;
+    height: 12px ;
+    background-color: rgba(0, 255, 255, 0.776);
+border-radius: 0px 8px 8px 8px ;
+transform: rotateZ(41deg);
+position: absolute;
+top: -12px;
+left: 120px;
+border: none;
+animation: ward5 4s linear 2;
+}
+@keyframes ward5{
+    100%{
+        top: 102px;
+    }
+}
+#war6{
+    border: 1px solid black;
+    width: 12px;
+    height: 12px ;
+    background-color: rgba(0, 255, 255, 0.776);
+border-radius: 0px 8px 8px 8px ;
+transform: rotateZ(41deg);
+position: absolute;
+top: -12px;
+left: 150px;
+border: none;
+animation: ward6 2s linear 2;
+}
+@keyframes ward6{
+    100%{
+        top: 102px;
+    }
+}
+#face{
+    border: 1px solid;
+    width: 172px;
+    height:126px;
+    position: absolute;
+    border: none;
+    top: 18px;
+    left: 18px;
+
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    
+}
+#face2{
+    border: 1px solid;
+    width: 174px;
+    height: 128px;
+    position: absolute;
+  top: -2px;
+  left: -2px;
+  overflow: hidden;
+    border-radius: 8px;
+    background-color:rgba(0, 255, 255, 0.55);
+
+}
+#o1{
+    border: 1px solid ;
+    width: 21px;
+    height: 21px;
+    background-color: aqua;
+   
+    position: absolute;
+    top: 22px;
+  border-radius: 3px;
+    left: 40px;
+    border: none;
+
+
+}
+#sh2{
+border: 1px solid rgb(0, 0, 0);
+background-color: black;
+width: 20px;
+height: 11px;
+position: absolute;
+top:45px;
+left: 40px;
+border-radius: 0px 0px 3px 3px;
+animation:  go 200ms linear;
+}
+@keyframes go{
+    100%{
+  top: 18px;
+      
+}
+}
+#sh1{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    width: 20px;
+    height: 11px;
+    position: absolute;
+    left: 40px;
+   top:8px;
+    border-radius: 3px 3px 0px 0px;
+    animation:  po 200ms linear;
+    }
+    @keyframes po{
+        100%{
+            animation: po 100ms infinite linear;
+         top: 0px;
+          
+    }
+    }
+
+
+    #sh4{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: black;
+        width: 20px;
+        height: 11px;
+        position: absolute;
+        top:45px;
+        left: 120px;
+        border-radius: 0px 0px 3px 3px;
+        animation:  go 200ms linear ;
+        }
+        @keyframes go{
+            100%{
+          top: 30px;
+              
+        }
+        }
+        #sh3{
+            border: 1px solid rgb(0, 0, 0);
+            background-color: black;
+            width: 20px;
+            height: 11px;
+            position: absolute;
+            left: 120px;
+           top: 7px;
+            border-radius: 3px 3px 0px 0px;
+            animation:  po 200ms linear;
+            }
+            @keyframes po{
+                100%{
+                 top: 18px;
+                  
+            }
+            }
+
+
+#o2{
+    border: 1px solid ;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    position: absolute;
+    top: 22px;
+    left: 120px;
+    border-radius: 3px;
+  
+   
+}
+#u{
+    border: 1px solid ;
+    border: none;
+    width: 80px;
+    height: 10px;
+    background-color: aqua;
+   
+    position: absolute;
+ animation: fi 200ms linear 2;
+top: -1px;
+    box-shadow: 0px 0px 80px 0px;
+    color: aqua; 
+}
+@keyframes fi{
+    0%{border-radius: 20px 20px 20px 20px ;  }
+    0%{
+        width: 80px;
+        height: 30px; 
+        border-radius: 100px;
+    }
+}
+#ki1{
+    border: 1px solid ;
+    border: none;
+    width: 80px;
+    height: 10px;
+    background-color: aqua;
+ 
+    top: 80px;
+    left: 48px;
+    position: absolute;
+  
+    box-shadow: 0px 0px 80px 0px;
+    color: aqua; 
+}
+
+#result{
+    width: 53px;
+    height: 15px;
+    font-size: 40px;
+    position: absolute;
+    border: none;
+   outline: none;
+   color:rgb(225, 225, 225) ;
+    top: -38px;
+    left: 1pc;
+  background-color: rgb(225, 225, 225);
+
+   
+   
+  
+}
+#ho , #ho2{
+    color:rgb(225, 225, 225) ;
+}
+#hea{
+    border: 1px solid ;
+    width: 210px;
+    height: 160px;
+    border-radius: 10px;
+    position: absolute;
+    top:27px;
+    left: 50px;
+    background-color: rgba(74, 74, 74, 0.438);
+  
+}
+
+
+
+
+
+
+
+
+
+
