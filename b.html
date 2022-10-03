@@ -22,12 +22,113 @@
     <button id="cl" onclick="ck()">downlod Kiyou</button>
     <div id="zv"></div>
    <div id="zv3"></div>
-    
-   </div>
    
+   </div>
+  
 </div>
-
+<div id="log2">
+    <h1 class="log-in">log-in</h1>
+    <div class="ml100">
+        <p class="sp1">Enter username or email : </p>
+    <input type="email" id="eml">
+    <p class="sp2">Enter password : </p>
+    <input type="password" id="pas">
+    <button id="ol" onclick="mypas()"></button>
+    <button id="bon1">login</button>
+    </div>
+    </div>
+   
 <style>
+    #ol{
+        position: absolute;
+        left: 311px;
+        top:145px;
+        height: 39px;
+        width: 40px;
+     background: url('o2.ico');
+     background-size: contain;
+   border: none;
+ 
+  cursor:pointer;
+ 
+    
+       
+    }
+    .sp1{
+        position: absolute;
+        top: 42px;
+        left: 30px;
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+    .sp2{
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+    .log-in{
+        position: absolute;
+        font-size: 40px;
+        left: 50px;
+        color: #757575;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+     #bon1{
+width: 323px;
+height: 45px;
+font-size: 30px;
+position: absolute;
+left: 30px;
+top: 220px;
+border: none;
+color: #ffffff;
+
+background-color: rgba(48, 246, 71, 0.845);
+    }
+    #eml{
+width: 20pc;
+height: 37px;
+font-size: 30px;
+position: absolute;
+left: 30px;
+top: 70px;
+outline: none;
+    }
+    #pas{
+        width: 20pc;
+height: 37px;
+font-size: 30px;
+position: absolute;
+left: 30px;
+top:9pc;
+outline: none;
+overflow: hidden;
+    }
+    .ml100{
+        border: 1px solid black;
+        width: 24pc;
+        height: 20pc;
+        position: absolute;
+        top: 80px;
+      left: 46px;
+     
+      border: none;
+    }
+    #log2{
+        border: 1px solid black;
+        width: 30pc;
+        height: 30pc;
+        position: absolute;
+        top:130px;
+        left: 30px;
+        background-color: #ffffff79;
+        box-shadow: 0px 0px 10px 0px;
+        border: none;
+        border-radius: 8px;
+
+    }
 .kiy{
     font-size: 40px;
  
@@ -48,6 +149,23 @@
            left: 2px;
         }
     </style>
+    <script>
+        function mypas() {
+          var x = document.getElementById("pas");
+          var o = document.getElementById("ol").style;
+          if (x.type === "password" || o.click === 'click' ) {
+            x.type = "text";
+            o.background = 'url("o3.ico")'
+           o.backgroundSize = 'contain';
+           o.backgroundColor = '#f7f7f7'
+          } else {
+            x.type = "password";
+            o.background = 'url("o2.ico")'
+           o.backgroundSize = 'contain';
+          
+          }
+        }
+        </script>
 <script>
 	
     function ck(){
