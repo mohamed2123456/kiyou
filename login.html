@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="k1.ico" type="image/x-icon" >
+</head>
+<body>
+    <div id="moop"></div>
+  <form  method="get">
+    <div id="log2">
+        <div class="log-in"></div>
+        <div class="ml100">
+            <p class="sp1">Enter username or email : </p>
+        <input name="email" type="email" id="eml">
+        <p class="sp2">Enter your password : </p>
+        <input name="password" type="password" id="pas">
+        <div id="ol" onclick="mypas()">
+        <div id="o2">
+           
+            <div class="oo1"></div>
+        </div>
+        <div id="l"></div>
+    </div>
+        <button onclick="myget()" id="bon1">login</button>
+        </div>
+        </div>
+  </form>
+ 
+    <script>
+      
+function myget(){
+    var email = document.getElementById('eml').value;
+    var password = document.getElementById('pas').value;
+    
+    if(email == 'elalamimohamed45@gmail.com' && password == 'alami2021'){
+ 
+     
+    }else{
+        var email2 = document.getElementById('pas').style;
+       email2.border = '2px solid red' 
+       email2.color = 'red'
+       
+    }
+}
+    </script>
+        <script>
+            function mypas() {
+              var x = document.getElementById("pas");
+              var o = document.getElementById("l").style;
+              if (x.type === "password" || o.click === 'click' ) {
+                x.type = "text";
+             o.width = '0px'
+             o.border = 'none'
+               
+              } else {
+                x.type = "password";
+                o.width = '30px'
+                o.border = ' 1px solid rgb(255, 255, 255)'
+              
+              }
+            }
+            </script>
+        <style>
+   *{
+        padding: 0;
+        margin: 0;
+    }
+    #l{
+        border: 1px solid #ffffff;
+        width: 30px;
+        height: 1px;
+        position: absolute;
+        top:17px;
+        left: 4px;
+        transform:rotateZ(24deg);
+        background-color: rgba(0, 0, 0, 0.184);
+       
+    }
+   
+    #o2{
+        border: 1px solid black;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top:8px;
+        left: 10px;
+        transform: rotateZ(47deg);
+border-radius: 12px 0px 12px 0px;
+        background-color: rgba(0, 0, 0, 0.242);
+     border: none;
+
+    }
+    
+    .oo1{
+        border: 3px solid #ffffff;
+        width: 7px;
+        height: 7px;
+        border-radius: 80px;
+        position: absolute;
+        top: 4px;
+    left: 3px;
+
+   
+       
+    }
+    #ol{
+                position: absolute;
+                left: 312px;
+                top:149px;
+                height: 35px;
+                width: 40px;
+           
+        
+         
+         
+          cursor:pointer;
+         
+            
+               
+            }
+    #moop{
+        border: 1px solid;
+        width: 80pc;
+        height: 880px;
+        background: url('pa.jpg');
+        background-size: cover;
+        box-shadow: 0px 0px 10px 0;
+        border: none;
+        position: absolute;
+     
+    
+    }
+    #ku{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 3px;
+        background: url('k1.ico');
+        background-size: cover;
+        border: none;
+      
+       
+    }
+
+           
+            .sp1{
+                position: absolute;
+                top: 42px;
+                left: 30px;
+                font-size: 19px;
+                font-family: sans-serif;
+               
+            }
+            .sp2{
+                position: absolute;
+                top: 120px;
+                left: 30px;
+                font-size: 19px;
+                font-family: sans-serif;
+            }
+            .log-in{
+                border: 1px solid black;
+                width: 79px;
+                height: 60px;
+                position: absolute;
+                top: 18px;
+                left: 201px;
+                background: url('ku.png');
+                background-size: cover;
+               border-radius: 8px;
+                border: none;
+
+            }
+             #bon1{
+        width: 323px;
+        height: 45px;
+        font-size: 30px;
+        position: absolute;
+        left: 30px;
+        top: 220px;
+        border: none;
+        color: #ffffff;
+        cursor:pointer;
+        
+        background-color: rgba(48, 246, 71, 0.927);
+            }
+            #eml{
+        width: 20pc;
+        height: 37px;
+        font-size: 21px;
+        position: absolute;
+        left: 30px;
+        top: 70px;
+        outline: none;
+            }
+            #pas{
+                width: 20pc;
+        height: 37px;
+        font-size: 21px ;
+        
+        position: absolute;
+        left: 30px;
+        top:147px;
+        outline: none;
+        overflow: hidden;
+   
+            }
+            .ml100{
+                border: 1px solid black;
+                width: 24pc;
+                height: 20pc;
+                position: absolute;
+                top: 80px;
+              left: 46px;
+             
+              border: none;
+            }
+            #log2{
+                border: 1px solid black;
+                width: 30pc;
+                height: 30pc;
+                position: absolute;
+                top:140px;
+                left: 410px;
+                background-color: #ffffff31;
+                box-shadow: 0px 0px 10px 0px;
+                border: none;
+                border-radius: 6px;
+        
+            }
+            body{
+                background-color: #8c8c8c93;
+            }
+        .kiy{
+            font-size: 40px;
+         
+            color: rgb(80, 80, 80);
+            position:absolute;
+            left: 69px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+            
+                #top1{
+                    border: 1px solid black;
+                    width: 80pc;
+                    height: 62px;
+                    position: absolute;
+                    background-color:rgb(220, 220, 220);
+                    box-shadow: 0px 0px 12px 0px;
+                    border: none;
+                   left: 2px;
+                }
+            </style>
+</body>
+</html>
